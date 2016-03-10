@@ -167,18 +167,6 @@ void KeyPress(unsigned char key, int a, int b)
 			{
 				dir = Down;
 			} break;
-		case 'q':
-			if (dir != Up)
-			{
-				if (slen > 2)
-				    slen--;
-			} break;
-		case 'e':
-			if (dir != Up)
-			{
-				if (slen < maxSlen)
-					slen++;
-			} break;
 		}
 	}
 	flag = false;
